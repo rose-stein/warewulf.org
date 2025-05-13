@@ -3,7 +3,6 @@ import React from "react";
 const AboutPage = () => (
   <main className="prose prose-lg px-6 py-10 mx-auto max-w-4xl">
     <h1>About Warewulf</h1>
-
     <p>
       Warewulf is a powerful, scalable, and flexible stateless provisioning system designed to simplify the deployment and management of High Performance Computing (HPC) clusters. Built for performance, maintainability, and automation, Warewulf enables system administrators and researchers to deploy clusters rapidly using proven, open standards.
     </p>
@@ -23,7 +22,6 @@ const AboutPage = () => (
     <p>
       At its core, Warewulf exists to make HPC provisioning easier, faster, and more maintainable without sacrificing flexibility or control. Our vision is to empower organizations of all sizes — from research labs and universities to enterprises and hyperscalers — with the tools to manage their clusters reliably and repeatably.
     </p>
-
     <ul>
       <li><strong>Stateless Simplicity –</strong> Remove unnecessary complexity by managing node images and configurations centrally, enabling true stateless booting and provisioning.</li>
       <li><strong>Performance at Scale –</strong> Ensure that cluster deployment and management is fast, lightweight, and scalable across thousands of nodes.</li>
@@ -52,45 +50,36 @@ const AboutPage = () => (
     <p>
       Warewulf is an open-source, community-driven project committed to transparent and collaborative development. Oversight of the project’s technical direction is provided by our <strong>Technical Steering Committee (TSC)</strong>.
     </p>
-
     <h3>Technical Steering Committee (TSC)</h3>
+    <p>The TSC meets regularly to discuss project roadmap updates, major feature planning, community feedback, and community contributions. These meetings are open to the public, and everyone is welcome to attend, observe, or participate.</p>
     <ul>
       <li><strong>Purpose:</strong> Guide the technical vision and ensure the long-term sustainability of Warewulf.</li>
       <li><strong>Participation:</strong> Community members are encouraged to join meetings, suggest agenda items, and contribute to discussions.</li>
       <li><strong>Schedule:</strong> Meetings are held on the <strong>1st and 3rd Wednesday of each month at 12:30 PM Pacific Time</strong>.</li>
-      <li><strong>Access:</strong> Meeting details are shared via the Warewulf mailing list and other community channels.</li>
+      <li><strong>Access:</strong> Meeting details are shared inside the Warewulf community Slack Channel.</li>
     </ul>
-
     <h3>Meeting Recordings</h3>
-    <p>
-      All TSC meetings are recorded and published to our YouTube channel to promote openness and accessibility.
-    </p>
-    <p>
-      👉 <a href="https://www.youtube.com/@warewulfhpc" target="_blank" rel="noopener noreferrer">Watch TSC Meetings on YouTube</a>
-    </p>
+    <p>All TSC meetings are recorded and published to our YouTube channel to promote openness and accessibility.</p>
+    <p>👉 <a href="https://www.youtube.com/@warewulfhpc" target="_blank" rel="noopener noreferrer">Watch TSC Meetings on YouTube</a></p>
 
     <h2>Get Involved</h2>
     <p>Warewulf thrives because of its community. We invite you to join us!</p>
-
     <h3>Community Project</h3>
     <ul>
-      <li><a href="https://join.slack.com/t/hpcng/shared_invite/..." target="_blank" rel="noopener noreferrer">Join our community discussions on Slack</a></li>
+      <li><a href="https://warewulf.slack.com" target="_blank" rel="noopener noreferrer">Join our community discussions on Slack</a></li>
       <li><a href="https://github.com/warewulf/warewulf" target="_blank" rel="noopener noreferrer">Contribute on GitHub</a></li>
     </ul>
-
     <h3>Social Media</h3>
     <ul>
       <li><a href="https://x.com/warewulf" target="_blank" rel="noopener noreferrer">Follow us on X</a></li>
       <li><a href="https://bsky.app/profile/warewulf.bsky.social" target="_blank" rel="noopener noreferrer">Follow us on BlueSky</a></li>
       <li><a href="https://www.youtube.com/@warewulfhpc" target="_blank" rel="noopener noreferrer">Follow us on YouTube</a></li>
     </ul>
-
     <h3>Commercial Support</h3>
     <ul>
       <li><a href="https://ciq.com" target="_blank" rel="noopener noreferrer">CIQ</a></li>
       <li><a href="https://suse.com" target="_blank" rel="noopener noreferrer">SUSE</a></li>
     </ul>
-
     <p>
       Whether you’re a systems engineer, developer, researcher, or passionate about open infrastructure, your voice matters. Together, we can continue building a better future for open source HPC.
     </p>
@@ -98,5 +87,3 @@ const AboutPage = () => (
 );
 
 export default AboutPage;
-
-
